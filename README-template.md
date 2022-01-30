@@ -10,11 +10,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 
 ## Overview
@@ -29,12 +25,12 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot-desktop.png)
-![](./screenshot-desktop.png)
+![](./screenshot-mobile.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/Elbassel511/bloger-landing-page-challenge]
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -48,9 +44,6 @@ Users should be able to:
 - Mobile-first workflow
 
 
-## Author
 
-
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
 
