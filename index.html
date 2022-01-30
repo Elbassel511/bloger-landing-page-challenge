@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Blogr]</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mobile-nav ">
+    <div class="flex flex-col mobile-nav-container ">
+      <div class="nav-tags-m">
+        <ul class="flex flex-col ubunto-meduim fs-4">
+          <li class="dropdown-m">
+            <a href="#" id="products-btn-m" class="drop-down-btns-m">Product<span class="fas  fa-angle-down"
+                id="i-m-0"  ></span></a>
+            <ul class="dropdown-menu-m flow " id="menu-m-0" aria-labelledby="products-btn-m">
+              <li> Overview
+              <li> Pricing
+              <li> Marketplace
+              <li> Features
+              <li> Integrations
+            </ul>
+
+
+          </li>
+
+          <li class="dropdown-m">
+            <a href="#" id="company-btn-m" class="drop-down-btns-m">Company<span class="fas fa-angle-down" id="i-m-1">
+              </span> </a>
+            <ul class="dropdown-menu-m flow " id="menu-m-1" aria-labelledby="company-btn-m">
+              <li> About
+              <li> Team
+              <li> Blog
+              <li> Careers
+            </ul>
+
+
+          <li class="dropdown-m">
+            <a href="#" id="conect-btn-m" class="drop-down-btns-m">Connect<span class="fas fa-angle-down" id="i-m-2">
+              </span> </a>
+            <ul class="dropdown-menu-m flow " id="menu-m-2" aria-labelledby="connect-btn-m">
+              <li> Contact
+              <li> Newsletter
+              <li> LinkedIn
+            </ul>
+
+          </li>
+
+
+          </li>
+
+        </ul>
+
+
+      </div>
+
+      <div class="nav-log-m flex flex-col">
+        <div>
+          <button class="login-btn ubunto-bold fs-4">Login</button>
+        </div>
+
+        <div>
+          <button class="rounded-btn rounded-btn-m ubunto-bold fs-5">Sign Up</button>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <nav class="container  nav transparent ">
+    <a href="index.html" class=" logo"><img src="./images/logo.svg" alt="logo"></a>
+
+
+    <div class="nav-tags">
+      <ul class="flex fs-5">
+        <li class="dropdown">
+          <a href="#" id="products-btn" class="drop-down-btns">Product<i class="fas fa-angle-down" id="i-0"></i></a>
+          <ul class="dropdown-menu flow " id="menu-0" aria-labelledby="products-btn">
+            <li> Overview
+            <li> Pricing
+            <li> Marketplace
+            <li> Features
+            <li> Integrations
+          </ul>
+
+
+        </li>
+
+        <li class="dropdown">
+          <a href="#" id="company-btn" class="drop-down-btns">Company<i class="fas fa-angle-down" id="i-1"> </i> </a>
+          <ul class="dropdown-menu flow " id="menu-1" aria-labelledby="company-btn">
+            <li> About
+            <li> Team
+            <li> Blog
+            <li> Careers
+          </ul>
+
+
+        <li class="dropdown">
+          <a href="#" id="conect-btn" class="drop-down-btns">Connect<i class="fas fa-angle-down" id="i-2"> </i> </a>
+          <ul class="dropdown-menu flow " id="menu-2" aria-labelledby="connect-btn">
+            <li> Contact
+            <li> Newsletter
+            <li> LinkedIn
+          </ul>
+
+        </li>
+
+
+        </li>
+
+      </ul>
+
+
+    </div>
+
+    <div class="nav-log">
+
+      <button class="login-btn ubunto-bold fs-5">Login</button>
+      <button class="rounded-btn ubunto-bold fs-5" style="padding-inline:2em ;">Sign Up</button>
+    </div>
+
+
+
+
+    
+  
+  <div class="menu-btn">
+    <div></div>
+  </div>
+    
+
+  </nav>
+
+
+
+  <div class="container heading-container">
+    <h1 class="fs-1 overpass-bold">A modern publishing platform</h1>
+    <span class="fs-4 overpass-light">Grow your audience and build your online brand</span>
+    <div class=" heading-btns flex">
+      <button class="rounded-btn fs-5 ubunto-bold">Start for Free</button>
+      <button class="rounded-btn rounded-btn-reversed fs-5 ubunto-bold">Learn More</button>
+    </div>
+
+  </div>
+
+
+  <article>
+    <section class="container grid grid-section dark-blue-text first-section">
+      <h2 class="overpass-bold  fs-6">Designed for the future</h2>
+      <picture id="editor-mobile">
+        <img src="./images/illustration-editor-mobile.svg" alt="illustration-editor-mobile">
+      </picture>
+
+      <picture id="editor-desktop" class="d-none">
+        <img src="./images/illustration-editor-desktop.svg" alt="">
+
+      </picture>
+
+
+      <div>
+        <h3 class="fs-3 overpass-bold">Introducing an extensible editor</h3>
+        <p class="fs-5 overpass-light">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+          The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+          videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+          change the looks of a blog. <br> <br> </p>
+        <h3 class="fs-3 overpass-bold">Robust content management</h3>
+        <p class="fs-5 overpass-light"> Flexible content management enables users to easily move through posts. Increase the usability of your blog
+          by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+        </p>
+      </div>
+    </section>
+
+    <section class="container grid  grid-section section--dark light-text ">
+      <div id="phone-img">
+        <img src="./images/illustration-phones.svg"  alt="">
+      </div>
+     
+      
+      
+      <div class="description" >
+        <h2 class="overpass-bold fs-6">State of the Art Infrastructure</h2>
+        <p class="fs-5 overpass-light" >With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+        </div>
+      
+
+    </section>
+
+    <section class="container grid grid-section dark-blue-text third-section">
+      <picture id="third-sec-mob">
+        <img src="./images/illustration-laptop-mobile.svg" alt="illustration-laptop-mobile">
+      </picture>
+      <picture id="third-sec-des">
+        <img src="images/illustration-laptop-desktop.svg" alt="">
+      </picture>
+      <div>
+      <h2 class="fs-6 overpass-bold ">Free, open, simple</h2>
+      <p class="fs-5 overpass-light"> Blogr is a free and open source application backed by a large community of helpful developers. It supports
+        features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
+        and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+      </p>
+      <h2 class="fs-6 overpass-bold ">Powerful tooling</h2>
+
+      <p class="fs-5 overpass-light">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment abreeze, but capable of producing even the most complicated sites.</p>
+    </div>
+    </section>
+
+
+  </article>
+
+  <footer class="container grid light-text ubunto-meduim">
+    <div>
+      <img src="./images/logo.svg" alt="logo">
+    </div>
+    
+
+    <div class=" fs-4 ">
+      Product<ul class="list footer-text fs-5">
+        <li> Overview</li>
+        <li>Pricing</li>
+        <li>Marketplace</li>
+        <li>Features</li>
+        <li> Integrations</li>
+      </ul>
+    </div>
+
+    <div class=" fs-4 ">
+      Company
+      <ul class="list footer-text fs-5">
+        <li>About</li>
+        <li>Team</li>
+        <li>Blog</li>
+        <li>Careers</li>
+        
+      </ul>
+    
+    </div>
+
+    <div class=" fs-4 ">
+      Connect
+      <ul class="list footer-text fs-5">
+        <li>Contact</li>
+        <li>Newsletter</li>
+        <li>LinkedIn</li>
+
+      </ul>
+      
+
+      
+      
+      
+    </div>
+
+
+
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Hamada Elbassel</a>.
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="jquery.min.js"></script>
+  <script src="js.js"></script>
+</body>
+
+</html>
