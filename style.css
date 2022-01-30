@@ -494,7 +494,7 @@ i{
     color: var(--Very-dark-gray-blue);
     border-radius: 1rem;
     padding-top: 1rem;
-    transform: translateX(160%) skewX(-30deg);
+    transform: translateX(200%) skewX(-30deg);
     transition: transform  500ms ease-in;
     z-index:200;
     
