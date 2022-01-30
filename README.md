@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Elbassel511/bloger-landing-page-challenge]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://elbassel511.github.io/bloger-landing-page-challenge/]
 
 ## My process
 
