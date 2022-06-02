@@ -381,7 +381,7 @@ i{
    grid-template-columns: 7.5em 1fr 1fr ;
    gap: 2em;
    position: fixed;
-   top:1em;
+   top:0;
    left:0;
    right: 0;
    z-index: 2000;
